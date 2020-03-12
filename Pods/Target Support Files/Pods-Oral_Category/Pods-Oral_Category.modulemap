@@ -1,0 +1,6 @@
+framework module Pods_Oral_Category {
+  umbrella header "Pods-Oral_Category-umbrella.h"
+
+  export *
+  module * { export * }
+}
