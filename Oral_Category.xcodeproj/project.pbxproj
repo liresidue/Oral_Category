@@ -15,8 +15,8 @@
 		A158CE8B241A341000BC322E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A158CE8A241A341000BC322E /* Assets.xcassets */; };
 		A158CE8E241A341000BC322E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A158CE8C241A341000BC322E /* LaunchScreen.storyboard */; };
 		A158CE91241A341000BC322E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A158CE90241A341000BC322E /* main.m */; };
-		A158CE9B241A34F700BC322E /* Oral.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A158CE9A241A34F700BC322E /* Oral.podspec */; };
 		A158CE9E241A358900BC322E /* CTMediator+Oral.m in Sources */ = {isa = PBXBuildFile; fileRef = A158CE9D241A358900BC322E /* CTMediator+Oral.m */; };
+		A158CEA4241A3D7200BC322E /* Oral_Category.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A158CEA3241A3D7200BC322E /* Oral_Category.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,9 +34,9 @@
 		A158CE8D241A341000BC322E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A158CE8F241A341000BC322E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A158CE90241A341000BC322E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A158CE9A241A34F700BC322E /* Oral.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Oral.podspec; sourceTree = "<group>"; };
 		A158CE9C241A358900BC322E /* CTMediator+Oral.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+Oral.h"; sourceTree = "<group>"; };
 		A158CE9D241A358900BC322E /* CTMediator+Oral.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+Oral.m"; sourceTree = "<group>"; };
+		A158CEA3241A3D7200BC322E /* Oral_Category.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Oral_Category.podspec; sourceTree = "<group>"; };
 		CFC5A812F865F9194ADC9268 /* Pods-Oral_Category.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oral_Category.debug.xcconfig"; path = "Target Support Files/Pods-Oral_Category/Pods-Oral_Category.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,7 +72,7 @@
 		A158CE72241A340E00BC322E = {
 			isa = PBXGroup;
 			children = (
-				A158CE9A241A34F700BC322E /* Oral.podspec */,
+				A158CEA3241A3D7200BC322E /* Oral_Category.podspec */,
 				A158CE7D241A340E00BC322E /* Oral_Category */,
 				A158CE7C241A340E00BC322E /* Products */,
 				99BD76A128799BE3D743FB2C /* Pods */,
@@ -175,9 +175,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A158CEA4241A3D7200BC322E /* Oral_Category.podspec in Resources */,
 				A158CE8E241A341000BC322E /* LaunchScreen.storyboard in Resources */,
 				A158CE8B241A341000BC322E /* Assets.xcassets in Resources */,
-				A158CE9B241A34F700BC322E /* Oral.podspec in Resources */,
 				A158CE89241A340E00BC322E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
