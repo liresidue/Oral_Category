@@ -10,8 +10,19 @@
 
 @implementation CTMediator (Oral)
 
-- (UIViewController *)OralViewController {
-    return [self performTarget:@"Oral" action:@"OralViewController" params:@{} shouldCacheTarget:NO];
+- (UIViewController *)guideOralViewControllerWithType:(NSInteger)type
+                                               titles:(NSArray *)titles
+                                           descTitles:(NSArray *)descTitles
+                                                grade:(NSInteger)grade {
+    return [self performTarget:@"Oral"
+                        action:@"OralViewController"
+                        params:@{
+                            @"type":            @(type),
+                            @"grade":           @(grade),
+                            @"listTitles":      titles,
+                            @"listDescTitles":  descTitles,
+                        }
+             shouldCacheTarget:NO];
 }
 
 @end

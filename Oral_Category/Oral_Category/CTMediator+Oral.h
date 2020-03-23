@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CTMediator (Oral)
 
-- (UIViewController *)OralViewController;
+- (UIViewController *)guideOralViewControllerWithType:(NSInteger)type titles:(NSArray *)titles descTitles:(NSArray *)descTitles grade:(NSInteger)grade;
 
 @end
 
